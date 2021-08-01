@@ -1,0 +1,64 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Roboto&display=swap');
+
+body {
+    background-image: linear-gradient(to top,aquamarine, rgb(11, 109, 189));
+    /*background-color: rgb(11, 167, 19);*/
+}
+
+header {
+    font-family: 'Courier New', Courier, monospace;
+    color: #0ff;
+    text-align: ;
+    text-shadow: 2px 2px 2px black;
+}
+h4 {
+    text-align: center;
+    border-bottom: 1px dotted black;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+section p {
+    display: none;
+}
+
+section article img {
+    width: 100px;
+    height: 200px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 7px;
+    margin: 20px;
+}
+
+#mensagem {
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(239, 241, 243), rgb(243, 243, 243));
+
+}
+
+#texto {
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: red;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
